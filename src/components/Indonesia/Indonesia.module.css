@@ -1,0 +1,89 @@
+/* Small Screen */
+
+.container {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+    
+ 
+
+}
+
+
+.cards__items {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(6, 214, 160, 1);
+    float: left;
+    text-align: center;
+    margin: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: white;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+
+.cards__colom1 {
+    color:rgb(25, 0, 255);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.cards__colom2 {
+    color: rgb(202, 224, 31);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards__colom3 {
+    color: red;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.indonesia__justify{
+    text-align: justify;
+    margin-top: 30px;
+    justify-content: center;
+}
+  
+.indonesia__title{
+    color: rgba(6, 214, 160, 1);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+  
+.indonesia__title{
+    color: rgba(17, 138, 178, 1);
+    text-align: center;
+}
+
+
+
+/* Large Screen */
+@media (min-width: 992px) {
+    .container{
+        text-align: left;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 30px auto;
+        display: flex;
+        margin-top: 10px;
+
+
+    }
+
+
+}

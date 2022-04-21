@@ -1,0 +1,15 @@
+.provinsi_table {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.provinsi_table td {
+    border: 1px solid black;
+}
+
+.provinsi_table th {
+    border: 1px solid black;
+}
+
